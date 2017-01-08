@@ -34,4 +34,7 @@ public class ProfilesBean {
     public List<Profile> getProfiles(){
         return profileFacade.findAll();
     }
+    public void createProfile(){
+        
+    }
 }
